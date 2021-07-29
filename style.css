@@ -8,3 +8,22 @@
     border: none;
     color: white;
 }
+.bike-text{
+    color: #E76F51;
+}
+.gray-scale{
+    width: 288px;
+    height: 243px;
+}
+.team-wrap:hover .gray-scale::before{
+    opacity: .5;
+    visibility: visible;
+}
+.gray-scale img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: .3s;
+}
+.team-wrap:hover .gray-scale img{
+    filter: grayscale(0);
+}
